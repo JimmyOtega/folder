@@ -64,19 +64,68 @@
                     <h2>Ingeniero de sistemas</h2><br><br><br><br>
                    
                     <button type="submit" id="sus" name="suscripcion" class="suscripcion"><span class="icon-user-plus">  Suscribete</span></button>
+                    <button type="submit" id="logi" name="logi" class="logi"><span class="icon-user">  Login</span></button>
                 </div>
             </div>
         </header>
         <br>
         <section class="seccion">
-            <div class="seccion1">
+            <article class="seccion1">
                 <h2 class="se_h2">ACERCA DE</h2>
-            </div>
-
+                <div class="mo_seccion1">
+                    <img class="img_mo_se" src="./img/34.jpg" alt="esta es una imagen">
+                    <p class="p">Mis compañeros y yo cuando estabamos en la univercidad nos apacionamos en la programacion
+                    , nos colocamos deacuerdo que : Si quiere viajar por la vialactia, abrazar las estrellas, 
+                    darle un veso al sol lo puedes hacer solo con la programacion 
+                    </p>
+                
+                </div>
+                <div class="mo_seccion2">
+                    <img class="img_mo_se" src="./img/33.jpg" alt="esta es una imagen">
+                    <p class="p">Hemos programado hastahora con con 4 lenguajes que son los mismos que lesdare a conoser
+                    </p>
+                
+                </div>
+            </article>
+           
         </section>
-
-
-
+        <br>
+        <article class="seccion2">
+            <div class="seccion3">
+                <div class="mo_seccion3">
+                    
+                    <img class="img_mo_se1" src="./img/1.jpg" alt="esta es una imagen">
+                    <p class="p">Al hablar de persistencia estas hablando de estos dos chicos,
+                        que sin importar las caidas siempre sigen adelante
+                    </p>
+                    
+                </div>
+                <div class="mo_seccion4">
+                   
+                    <img class="img_mo_se1" src="./img/6.jpg" alt="esta es una imagen">
+                    <p class="p">Recuerdos especiales del comienzo
+                    </p>
+                </div>
+            </div>
+        </article>
+        <br>
+        <article class="seccion4">
+            <div class="seccion5">
+                <div class="seccion_cont_fi">
+                    <p class="p1">Al empezar a programar el mejor inicio es C++,
+                    optienes las bases necesarias para continuar con la programacion orientada
+                    a objecto
+                    </p>
+                </div>
+                <div class="seccion_cont">
+                    <p class="p1">Java es el perfecto para continuar con la programacion orientada a objecto
+                        porque brinda muchas opciones o maneras de programar y aprender cada vezmas
+                    </p>
+                   
+                </div>
+               
+            </div>
+        </article>
 
 
 

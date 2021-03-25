@@ -202,12 +202,160 @@ li a input:hover{
 .seccion1{
    
     grid-column: 2/3;
-    height: 580px;
+    height: 600px;
     background:url("../img/Vector2.svg");
     background-repeat: no-repeat;
+    padding: 20px;
 }
 
 .se_h2{
     text-align: center;
 }
+/* --------------------------  acerca de ------------------------*/
+.mo_seccion1{
+    width: 600px;
+    height: 200px;
+    margin: 40px;
+    padding: 10px;
+    border: 2px solid #334D50;
+    box-shadow:15px 10px 10px #334D50;
+}
+.img_mo_se{
+    width: 250px;
+    margin: 5px;
+    float: left;
+}
+.p{
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+/*---------------------------- modal 2 ------------------ */
+.mo_seccion2{
+    width: 600px;
+    height: 200px;
+    margin: 60px;
+    padding: 10px;
+    border: 2px solid #334D50;
+    box-shadow:15px 10px 10px #334D50;
+}
+.img_mo_se{
+    object-fit: cover;/*esta etiqueta es para que la imagen no pierda su calidad */
+    width: 250px;
+    margin: 5px;
+    float: left;
+}
+.p{
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+/* --------------------------  acerca de parte 2------------------------*/
+
+.seccion2{
+    position: relative;
+    top: 550px;
+    display: grid;
+    grid-template-columns: 260px 1fr 200px;
+}
+
+.seccion3{
+    grid-column: 2/3;
+    height: 600px;
+    background:url("../img/Vector1.svg");
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.mo_seccion3{
+    position: absolute;
+    left: 387px;
+    width: 300px;
+    height: 550px;
+    border: 2px solid #334D50;
+    box-shadow:15px 10px 10px #334D50;
+}
+
+.mo_seccion4{
+    position: absolute;
+    left: 720px;
+    width: 300px;
+    height: 550px;
+    border: 2px solid #334D50;
+    box-shadow:15px 10px 10px #334D50;
+}
+
+.img_mo_se1{
+    object-fit: cover;/*esta etiqueta es para que la imagen no pierda su calidad */
+    /*overflow: hidden;*/
+    width: 280px;
+    height: 350px;
+    margin: 5px;
+    float: left;
+}
+
+
+.seccion4{
+    position: relative;
+    top: 550px;
+    display: grid;
+    grid-template-columns: 300px 1fr 200px;
+}
+
+.seccion5{
+    display: grid;
+    grid-column: 2/3;
+    height: 600px;
+    background:url("../img/Vector3_negro.svg");
+    background-repeat: no-repeat;
+    padding: 10px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.seccion_cont_fi{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: url("../img/logoc++1.png");
+    background-size: 270px;
+    overflow:hidden;
+    object-fit: cover;/*esta etiqueta es para que la imagen no pierda su calidad */
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+.seccion_cont{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: url("../img/Logojava.jpg");
+    background-size: 270px;
+    overflow:hidden;
+    object-fit: cover;/*esta etiqueta es para que la imagen no pierda su calidad */
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+.p1{
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.logi{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(90deg, #334D50 0%, #CBCAA5 100%);
+    color: #fff;
+    font-size: 20px;
+    border-radius:20px ;
+    cursor: pointer;
+}
+
+.logi:hover{
+    transform: scale(1.5);
+}
+
+
+
+
 
