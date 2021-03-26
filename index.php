@@ -8,6 +8,7 @@
         <title>Este es</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+        <script src="jQuery/jquery-3.6.0.min.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/et_fondo.css">
         <link rel="stylesheet" href="icomoon/style.css">
     </head>
@@ -31,6 +32,24 @@
             </form>
            
        </div>
+
+       <div class="lo" id="lo">
+           <h2>Ventana de Login</h2>
+           <form id="formulario" method="POST">
+                <img src="./img/Team success _Outline.svg" class="log">
+                <input type="text" class="us" id="us" name="us" placeholder="Escriva su Nombre"><br>
+
+                <input type="password" class="us" id="pas" name="pas" placeholder="Escriva su Contraceña"><br>
+
+                <input type="hidden" name="tipo" id="tipo" value="buscar">
+                <button type="submit" id="ac" class="bus"><span class="icon-database">  Aceptar</span> </button>
+                <button type="button" id="sa" class="bus"><span class="icon-exit">  Salir</span> </button>
+            
+            </form>
+           
+       </div>
+
+
         <div class="modal2" id="modal2" >
             <h2>Te invito a echar un vistaso a mis proyectos cuando estaba en la univensidad</h2><br>
             <h4 class="p_a">Proyectos  <a href="#" class="p_p" > Java</a></h4>
@@ -63,8 +82,8 @@
                     <h2>Jimmy Leoncio Ortega Rodriguez</h2><br><br>
                     <h2>Ingeniero de sistemas</h2><br><br><br><br>
                    
-                    <button type="submit" id="sus" name="suscripcion" class="suscripcion"><span class="icon-user-plus">  Suscribete</span></button>
-                    <button type="submit" id="logi" name="logi" class="logi"><span class="icon-user">  Login</span></button>
+                    <button type="submit" id="sus" class="suscripcion"><span class="icon-user-plus">  Suscribete</span></button>
+                    <button type="submit" id="logeo" class="logi"><span class="icon-user">  Login</span></button>
                 </div>
             </div>
         </header>
@@ -123,7 +142,15 @@
                     </p>
                    
                 </div>
-               
+                <div class="seccion_cont_fi3">
+                    <p class="p1">Es un exelente lenguaje para programar orientado a objecto
+                    </p>
+                </div>
+                <div class="seccion_cont_fi4">
+                    <p class="p1">En la actualidad megusta mucho la programacion web e trabajado en varios proyecto web
+                        los cuales me an hecho enamorar de la programacion web tanto el backend como el fronted me parecen geniales
+                    </p>
+                </div>
             </div>
         </article>
 

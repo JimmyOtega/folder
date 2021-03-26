@@ -1,3 +1,58 @@
+$(document).ready(function(){
+   
+    $("#logeo").click(function(){ 
+        $( "#lo" ).css( 'display','block' );
+    });
+
+    $("#lo #sa").click(function(){ 
+        $( "#lo" ).css( 'display','none' );
+    });
+    
+    $("#ac").click(function(){ 
+        datos();
+    });
+
+
+    function datos(){
+        $('#formulario').on('submit',function(e){
+            e.preventDefault();/*evita que la pagina buelva a cargarse */
+            $(this).serialize();/*para garantizar la captura de las cajas de texto*/
+          
+           $.ajax({
+                type:"POST",
+                url:"php/buscar.php",
+                dataType:'json',
+                data:{
+                    us:$('#us').val(),
+                    pas:$('#pas').val()
+                }
+           })
+           .done(function(data){/*si la funcion debulve sierto */ 
+                swal({
+                    title: "Usuario  > " + data.us,
+                    text: 'Bienvenido ',
+                    tipe: 'success'
+                });
+                modal_dos();
+               
+           })
+           .fail(function(data){/*si la funcion de bulve error */
+                swal({
+                    title: 'Error',
+                    text: 'Presiona ok. para continuar',
+                    type: 'error'
+                })
+                $('#us').val('');
+                $('#pas').val('');
+           })
+        });
+
+    }
+
+    
+
+
+});
 
 
 eventListaner(); // la funcion que se carga cuando la pagina esta lista 
@@ -90,3 +145,4 @@ function modal_dos(){
     document.getElementById('li3').style.display="block";
     document.getElementById('li4').style.display="block";
 }
+

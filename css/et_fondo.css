@@ -137,6 +137,12 @@ li a input:hover{
     border-radius: 20px;
     cursor: pointer;
 }
+.acep:hover{
+    transform: scale(1.5);
+}
+.sal:hover{
+    transform: scale(1.5);
+}
 .img1{
     width: 15%;
     height: 30px;
@@ -355,7 +361,64 @@ li a input:hover{
     transform: scale(1.5);
 }
 
+.seccion_cont_fi3{
+    grid-column: 2/3;
+    grid-row: 3/3;
+    background: url("../img/Cichar.jpg");
+    background-size: 300px;
+    overflow:hidden;
+    object-fit: cover;/*esta etiqueta es para que la imagen no pierda su calidad */
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
 
+.seccion_cont_fi4{
+    grid-column: 2/4;
+    grid-row: 4/4;
+    background: url("../img/pro.jpg");
+    background-size: 300px;
+    overflow:hidden;
+    object-fit: cover;/*esta etiqueta es para que la imagen no pierda su calidad */
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+/*--------------------------------------- modal login ----------------------------------*/
 
+.lo{
+    display: none;
+    position: absolute;
+    top:80px ;
+    right:0px ;
+    left:450px ;
+    bottom:0px ;
+    width: 550px;
+    height: 320px;
+    border: 5px solid #334D50;
+    border-radius: 20px;
+    background:#ffff;
+    text-align: center;
+    z-index: 99;
+}
+.log{
+    width: 200px;
 
-
+}
+.us{
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+}
+.bus{
+    width: 200px;
+    height: 35px;
+    margin: 5px; 
+    border: 2px solid #334D50;
+    color: #fff;
+    font-size: 20px;
+    background: linear-gradient(90deg, #334D50 0%, #CBCAA5 100%);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bus:hover{
+    transform: scale(1.5);
+}
