@@ -130,32 +130,51 @@
         <br>
         <article class="seccion4">
             <div class="seccion5">
-                <div class="seccion_cont_fi">
-                    <p class="p1">Al empezar a programar el mejor inicio es C++,
-                    optienes las bases necesarias para continuar con la programacion orientada
-                    a objecto
-                    </p>
-                </div>
-                <div class="seccion_cont">
-                    <p class="p1">Java es el perfecto para continuar con la programacion orientada a objecto
-                        porque brinda muchas opciones o maneras de programar y aprender cada vezmas
-                    </p>
+               <h2 class="esh">PORTAFOLIO</h2>
+               <div class="porta1">
                    
-                </div>
-                <div class="seccion_cont_fi3">
-                    <p class="p1">Es un exelente lenguaje para programar orientado a objecto
-                    </p>
-                </div>
-                <div class="seccion_cont_fi4">
-                    <p class="p1">En la actualidad megusta mucho la programacion web e trabajado en varios proyecto web
-                        los cuales me an hecho enamorar de la programacion web tanto el backend como el fronted me parecen geniales
-                    </p>
-                </div>
+                   <div class="porta2">
+                        <img class="imgfi" src="./img/2.jpg" alt="img-personal">
+                        <p class="pf">Estos son los lenguajes de programacion a los que estoy asociado,
+                        y con los que tengo proyectos disponibles</p>
+                   </div>
+
+                   <div class="porta_c">
+                        <img class="imgfic" src="./img/logoc++1.png" alt="img-personal">
+                    </div>
+
+                   <div class="porta_char">
+                        <img class="imgfic" src="./img/Cichar.jpg" alt="img-personal">
+                    </div>
+               </div>
+               <div class="porta3">
+                    <div class="porta_l">
+                        <img class="imgfi" src="./img/2.jpg" alt="img-personal">
+                        <p class="pf">Aunque falta aprender mucho mas</p>
+                   </div>
+                   <div class="porta_java">
+                        <img class="imgfic" src="./img/Logojava.jpg" alt="img-personal">
+                    </div>
+                    <div class="porta_h">
+                        <img class="imgfic" src="./img/pro.jpg" alt="img-personal">
+                      
+                    </div>
+               </div>
+            </div>
+           
+        </article>
+        <br>
+        <article class="seccion_block">
+            <div class="seccion_bl">
+                <h2 class="esh">Block</h2>
+
             </div>
         </article>
-
-
-
+        <footer class="footer">
+            <div class="foot">
+            <h2 class="esh">Footer</h2>
+            </div>
+        </footer>
 
 
 
@@ -172,6 +191,7 @@
 
 
        <script src="./js/sweetalert2.all.min.js"></script>
+       <script src="./jQuery/animar.js"></script>
        <script src="js/ventana.js"></script>
     
     </body>

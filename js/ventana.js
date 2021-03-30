@@ -34,7 +34,7 @@ $(document).ready(function(){
                     tipe: 'success'
                 });
                 modal_dos();
-               
+                
            })
            .fail(function(data){/*si la funcion de bulve error */
                 swal({
@@ -48,8 +48,6 @@ $(document).ready(function(){
         });
 
     }
-
-    
 
 
 });
@@ -145,4 +143,3 @@ function modal_dos(){
     document.getElementById('li3').style.display="block";
     document.getElementById('li4').style.display="block";
 }
-

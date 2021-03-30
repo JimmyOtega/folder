@@ -26,11 +26,6 @@
         );
     }
     $st->close();
-    $conn->close();
-        
+    $conn->close();  
     echo json_encode($res);
-
-   
-    
-
 ?>
