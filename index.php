@@ -67,7 +67,7 @@
                     <ul>
                         <img src="./img/logo.jpg" alt="logo" class="imglo">
                         <li class="li" id="li1"><a><input type="submit" value="Inicio" onmouseout="sale()"></input></a></li>
-                        <li class="li" id="li2"><a><input type="submit" value="Proyectos" id="proy" onmouseover="paso()"></input></a>
+                        <li class="li ic" id="li2"><a ><input type="submit" value="Proyectos" id="proy" onmouseover="paso()" ></input><span class="icon-ctrl" style="color:#fff"></span></a>
                         <li class="li" id="li3"><a><input type="submit" value="Trayectoria" onmouseout="sale()"></input> </a></li>
                         <li class="li" id="li4"><a><input type="submit" value="Configuracion" onmouseout="sale()"></input></a></li>
     
@@ -166,30 +166,68 @@
         <br>
         <article class="seccion_block">
             <div class="seccion_bl">
-                <h2 class="esh">Block</h2>
-
+                <div class="seccion_op1">
+                    <div class="se_op">
+                        <p class="b_f">C++ es un lenguaje de programación de propósito general que ofrece economía sintáctica,
+                             control de flujo y estructuras sencillas y un buen conjunto de operadores. 
+                             No es un lenguaje de muy alto nivel y más bien un lenguaje pequeño,
+                        </p>
+                    </div>
+                    <div class="se_op1">
+                        <p class="b_f">JAVA es e un lenguaje de programación y un entorno de ejecución de programas escritos en el lenguaje JAVA. 
+                            A diferencia de de los compiladores tradicionales, 
+                            que convierten el codigo en instrucciones de bajo nivel. 
+                            El compilador JAVA traduce el código fuente JAVA en instrucciones que son interpretadas por la Maquina Virtual Java (JVM). 
+                        </p>
+                    </div>
+                    <div class="se_op2">
+                        <p class="b_f1">"C#" es un lenguaje de programación multiparadigma desarrollado y 
+                            estandarizado por la empresa Microsoft como parte de su plataforma .NET, 
+                        </p>
+                    </div>
+                    <div class="se_op3">
+                        <h2 class="ji" >Espero que este block sea de tu agrado JIMMY ORTEGA
+                        </h2>
+                    </div>
+                </div>
             </div>
         </article>
         <footer class="footer">
             <div class="foot">
-            <h2 class="esh">Footer</h2>
+                <div class="foot1">
+                    <h2 class="esh1">Informacion del administrador</h2>
+                    <p class="p_foot">Mi nombre es Jimmy Ortega , actualmente vivo en tumaco nariño , 
+                        soy un estudiante de la univercidad de mariño me encuentro en octavo semestre de
+                        ingenieria de sistemas megusta la programacion y si logras mirar esta web debes
+                        saver que la cree para dibertirme GRACIAS POR LEER ESTE ARTICULO
+                    </p>
+                    <p class="p_foot">finalizar block: 31 - 03 - 2021
+                    </p>
+                </div>
+                <div class="foot2">
+                    <a href="#"><img src="./img/icon-contactos/facebook.png" alt="facebook" class="f_img"></a>
+                    <h3 class="tex">Contatame en facebook</h3>
+                    <a href="#"><img src="./img/icon-contactos/instagram.png" alt="instagram" class="f_img"></a>
+                    <h3 class="tex">Contatame en instagram</h3>
+                    <a href="#"><img src="./img/icon-contactos/twitter.png" alt="twitter" class="f_img"></a>
+                    <h3 class="tex">Contatame en twitter</h3>
+                    <a href="#"><img src="./img/icon-contactos/google-plus.png" alt="google-plus" class="f_img"></a>
+                    <h3 class="tex">Contatame en google-plus</h3>
+                    <a href="#"><img src="./img/icon-contactos/pinterest.png" alt="pinterest" class="f_img"></a>
+                    <h3 class="tex">Contatame en pinterest</h3>
+                    <a href="#"><img src="./img/icon-contactos/gmail.png" alt="pinterest" class="f_img"></a>
+                    <h3 class="tex">Contatame en gmail</h3>
+                </div>
+                <div class="foot_fla">
+                    <a href="#"><img src="./img/icon-contactos/house.png" alt="pinterest" class="f_img1"></a>
+                    <h3 class="tex1">Bolver al inicio</h3>
+                </div>
+                <div class="foot_fla1">
+                    <a href="#"><img src="./img/icon-contactos/smartphone.png" alt="pinterest" class="f_img1"></a>
+                    <h3 class="tex1">smartphone</h3>
+                </div>
             </div>
         </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
        <script src="./js/sweetalert2.all.min.js"></script>
        <script src="./jQuery/animar.js"></script>
        <script src="js/ventana.js"></script>
